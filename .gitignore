@@ -1,0 +1,9 @@
+# Ignore parent directory files and folders
+../**
+!../failure-log/
+
+# Keep only failure-log content
+/*
+!/2026/
+!/SCHEMA.md
+!.gitignore
